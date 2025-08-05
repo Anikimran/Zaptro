@@ -13,9 +13,9 @@ const Products = () => {
 
   return (
     <div>
-      <div className='max-w-6xl mx-auto px-4 mb-10 bg-white py-4 shadow-amber-600 text-red-600 mt-5'>
+      <div className=' px-4 mb-10 bg-white py-4 shadow-amber-600 text-red-600 mt-5'>
         {data?.length > 0 ? (
-          <div className='flex gap-8'>
+          <div className='flex gap-3'>
             <FilterSection />
            <div className='flex flex-wrap gap-4 justify-center cols-3'>
             {
