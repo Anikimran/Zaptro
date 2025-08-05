@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.cl-avatarBox{
+    width: 60%;
+    height: 60%;
+   
+
+}
+.arrows {
+    height: 40px;
+    width: 40px;
+}
